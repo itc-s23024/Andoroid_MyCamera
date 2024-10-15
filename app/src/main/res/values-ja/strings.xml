@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyCamera</string>
+    <string name="camera_permission_denied">カメラの権限がありません。</string>
+    <string name="request_camera_permission">カメラの権限をリクエストする</string>
+</resources>
