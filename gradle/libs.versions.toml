@@ -10,6 +10,8 @@ activityCompose = "1.9.2"
 composeBom = "2024.09.03"
 accompanistPermissions = "0.36.0"
 cameraX = "1.4.0-rc03"
+material = "1.8.0-alpha03"
+materialIconsExtended = "1.7.3"
 
 
 [libraries]
@@ -34,6 +36,8 @@ androidx-camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycl
 androidx-camera-video = { group = "androidx.camera", name = "camera-video", version.ref = "cameraX" }
 androidx-camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "cameraX" }
 androidx-camera-extensions = { group = "androidx.camera", name = "camera-extensions", version.ref = "cameraX" }
+androidx-material = { group = "androidx.compose.material", name = "material", version.ref = "material" }
+androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "materialIconsExtended" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
